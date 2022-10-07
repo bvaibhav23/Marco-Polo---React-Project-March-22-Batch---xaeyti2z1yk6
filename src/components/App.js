@@ -12,11 +12,11 @@ const App = () => {
 };
 
 const tog = () => {
-  let name = document.getElementById("marco-polo").innerText;
-  name === "Marco" ? (name = "Polo") : (name = "Marco");
+  let name = document.getElementById("marco-polo");
+  name.innerText === "Marco" ? (name.innerText = "Polo") : (name.innerText = "Marco");
  // alert(name);
-  let btn = document.getElementById("marco-polo-toggler").innerText;
-  btn === "Marco" ? (btn = "Polo") : (btn = "Marco");
+  let btn = document.getElementById("marco-polo-toggler");
+  btn.innerText === "Marco" ? (btn.innerText = "Polo") : (btn.innerText = "Marco");
 //   alert(btn);
 };
 
